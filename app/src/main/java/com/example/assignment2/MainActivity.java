@@ -1,5 +1,6 @@
 package com.example.assignment2;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startOnClick(View view) {
+        Intent intent = new Intent(MainActivity.this, AlphabetsActivity.class);
+        startActivity(intent);
     }
 
     public void quizOnClick(View view) {
