@@ -24,37 +24,52 @@
                 android:id="@+id/btnA"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="match_parent"
                 android:textSize="20dp"
+                android:onClick="AOnClick"
                 android:text="A" />
 
             <Button
                 android:id="@+id/btnB"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="BOnClick"
                 android:text="B" />
             <Button
                 android:id="@+id/btnC"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="COnClick"
                 android:text="C" />
             <Button
                 android:id="@+id/btnD"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="DOnClick"
                 android:text="D" />
             <Button
                 android:id="@+id/btnE"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="EOnClick"
                 android:text="E" />
         </LinearLayout>
         <LinearLayout
@@ -68,6 +83,9 @@
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:text="F"
+                android:onClick="FOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"/>
 
             <Button
@@ -75,28 +93,40 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
-                android:text="F" />
+                android:onClick="GOnClick"
+                android:text="G" />
             <Button
                 android:id="@+id/btnH"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="HOnClick"
                 android:text="H" />
             <Button
                 android:id="@+id/btnI"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="IOnClick"
                 android:text="I" />
             <Button
                 android:id="@+id/btnJ"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="JOnClick"
                 android:text="J" />
         </LinearLayout>
         <LinearLayout
@@ -110,6 +140,9 @@
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="KOnClick"
                 android:text="K" />
 
             <Button
@@ -118,6 +151,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="LOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="L" />
             <Button
                 android:id="@+id/btnM"
@@ -125,13 +161,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="MOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="M" />
             <Button
                 android:id="@+id/btnN"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="NOnClick"
                 android:text="N" />
             <Button
                 android:id="@+id/btnO"
@@ -139,6 +181,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="OOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="O" />
         </LinearLayout>
         <LinearLayout
@@ -152,6 +197,9 @@
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:textSize="20dp"
+                android:onClick="POnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="P" />
 
             <Button
@@ -160,27 +208,39 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="QOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="Q" />
             <Button
                 android:id="@+id/btnR"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="ROnClick"
                 android:text="R" />
             <Button
                 android:id="@+id/btnS"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="SOnClick"
                 android:text="S" />
             <Button
                 android:id="@+id/btnT"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="TOnClick"
                 android:text="T" />
         </LinearLayout>
         <LinearLayout
@@ -194,6 +254,9 @@
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:textSize="20dp"
+                android:onClick="UOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="U" />
 
             <Button
@@ -202,6 +265,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="VOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="V" />
             <Button
                 android:id="@+id/btnW"
@@ -209,6 +275,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="WOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="W" />
             <Button
                 android:id="@+id/btnX"
@@ -216,13 +285,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:onClick="XOnClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="X" />
             <Button
                 android:id="@+id/btnY"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:textSize="20dp"
+                android:onClick="YOnClick"
                 android:text="Y" />
         </LinearLayout>
         <LinearLayout
@@ -235,7 +310,10 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:text="Z" />
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="100dp"
+                android:text="Z"
+                android:onClick="ZOnClick"/>
 
             <Button
                 android:id="@+id/btnBack"
@@ -243,6 +321,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="15dp"
+                android:onClick="backOnClick"
                 android:text="Back" />
 
         </LinearLayout>
