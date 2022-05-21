@@ -18,7 +18,7 @@ public class AlphabetsActivity extends AppCompatActivity {
         Intent intent = new Intent(AlphabetsActivity.this, ActivityA.class);
         startActivity(intent);
     }
-
+/*
     public void BOnClick(View view) {
         Intent intent = new Intent(AlphabetsActivity.this, ActivityB.class);
         startActivity(intent);
@@ -134,7 +134,7 @@ public class AlphabetsActivity extends AppCompatActivity {
     public void ZOnClick(View view) {
         Intent intent = new Intent(AlphabetsActivity.this, ActivityZ.class);
         startActivity(intent);
-    }
+    }*/
 
     public void backOnClick(View view) {
         Intent intent = new Intent(AlphabetsActivity.this, MainActivity.class);
