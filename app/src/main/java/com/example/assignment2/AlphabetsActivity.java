@@ -4,9 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 public class AlphabetsActivity extends AppCompatActivity {
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,16 +17,19 @@ public class AlphabetsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_alphabets);
     }
 
+
     public void AOnClick(View view) {
+        String id = view.getTransitionName();
         Intent intent = new Intent(AlphabetsActivity.this, ActivityA.class);
+        intent.putExtra("id",id);
         startActivity(intent);
     }
-/*
+
     public void BOnClick(View view) {
         Intent intent = new Intent(AlphabetsActivity.this, ActivityB.class);
         startActivity(intent);
     }
-
+/*
     public void COnClick(View view) {
         Intent intent = new Intent(AlphabetsActivity.this, ActivityC.class);
         startActivity(intent);
