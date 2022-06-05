@@ -46,7 +46,7 @@ public class CustomActivity extends AppCompatActivity {
         alphabetArrayList.add(new Alphabet('Z','z',R.drawable.z3));
 
         MyViewAdapter adapter = new MyViewAdapter(this, alphabetArrayList);
-        listview1 = findViewById(R.id.lstVw1);
+        listview1 = findViewById(R.id.listview3);
         listview1.setAdapter(adapter);
     }
 }

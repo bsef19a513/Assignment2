@@ -21,16 +21,15 @@ public class MyViewAdapter extends ArrayAdapter<Alphabet> {
         super(context, 0, objects);
     }
 
-    @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         Alphabet alpha = getItem(position);
-        convertView = LayoutInflater.from(getContext()).inflate(R.layout.alphabetview,parent,false);
-        TextView txtVwCap = convertView.findViewById(R.id.txtVwCap);
-        TextView txtVwSmall = convertView.findViewById(R.id.txtVwSmall);
-        ImageView imgView = convertView.findViewById(R.id.imgView1);
-        txtVwCap.setText(alpha.capital);
-        txtVwSmall.setText(alpha.small);
+        convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_custom,parent,false);
+        TextView txtCap = convertView.findViewById(R.id.txtVwCap);
+        TextView txtSmall = convertView.findViewById(R.id.txtVwSmall);
+        ImageView imgView = convertView.findViewById(R.id.imgVw3);
+        txtCap.setText(alpha.capital);
+        txtSmall.setText(alpha.small);
         imgView.setImageResource(alpha.imageID);
         return convertView;
     }
