@@ -8,6 +8,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.CustomActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void CustomOnClick(View view) {
-        Intent intent = new Intent(MainActivity.this,CustomActivity.class);
+        Intent intent = new Intent(MainActivity.this, CustomActivity.class);
         startActivity(intent);
     }
 }
