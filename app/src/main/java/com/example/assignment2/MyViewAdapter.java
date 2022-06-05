@@ -17,15 +17,15 @@ import com.example.assignment2.R;
 import java.util.ArrayList;
 
 public class MyViewAdapter extends ArrayAdapter<Alphabet> {
-    public MyViewAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Alphabet> objects) {
-        super(context, resource, objects);
+    public MyViewAdapter(@NonNull Context context, @NonNull ArrayList<Alphabet> objects) {
+        super(context, 0, objects);
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         Alphabet alpha = getItem(position);
-        convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_custom,parent,false);
+        convertView = LayoutInflater.from(getContext()).inflate(R.layout.alphabetview,parent,false);
         TextView txtVwCap = convertView.findViewById(R.id.txtVwCap);
         TextView txtVwSmall = convertView.findViewById(R.id.txtVwSmall);
         ImageView imgView = convertView.findViewById(R.id.imgView1);
