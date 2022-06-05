@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment2">
         <activity
-            android:name=".ActivityB"
+            android:name="com.CustomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizActivity"
             android:exported="true" />
         <activity
             android:name=".ActivityA"

@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void quizOnClick(View view) {
+        Intent intent = new Intent(MainActivity.this,QuizActivity.class);
+        startActivity(intent);
     }
 
     public void repositoryOnClick(View view) {
@@ -31,4 +33,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void CustomOnClick(View view) {
+        Intent intent = new Intent(MainActivity.this,CustomActivity.class);
+        startActivity(intent);
+    }
 }
