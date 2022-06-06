@@ -7,11 +7,12 @@
     tools:context="com.CustomActivity">
 
     <ImageView
-        android:id="@+id/imgVw3"
+        android:id="@+id/imgVw1"
         android:layout_width="174dp"
         android:layout_height="198dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="68dp"
+        android:src="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -19,21 +20,28 @@
         android:id="@+id/txtVwCap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        android:layout_marginStart="36dp"
+        android:text="A"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVw1"
+        app:layout_constraintStart_toEndOf="@+id/imgVw1"
+        app:layout_constraintTop_toTopOf="@+id/imgVw1"
+        app:layout_constraintVertical_bias="0.496" />
 
     <TextView
         android:id="@+id/txtVwSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:text="a"
+        android:textColor="@color/black"
+        android:textSize="45dp"
         app:layout_constraintBottom_toBottomOf="@+id/txtVwCap"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toEndOf="@+id/txtVwCap"
-        app:layout_constraintTop_toTopOf="@+id/txtVwCap" />
+        app:layout_constraintTop_toTopOf="@+id/txtVwCap"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
