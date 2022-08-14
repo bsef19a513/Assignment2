@@ -14,24 +14,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-/*public class MyViewAdapter extends ArrayAdapter<Alphabet> {
-    public MyViewAdapter(@NonNull Context context, @NonNull ArrayList<Alphabet> objects) {
-        super(context, 0, objects);
-    }
 
-    @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Alphabet alpha = getItem(position);
-        convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_custom,parent,false);
-        TextView txtCap = convertView.findViewById(R.id.txtVwCap);
-        TextView txtSmall = convertView.findViewById(R.id.txtVwSmall);
-        ImageView imgView = convertView.findViewById(R.id.imgVw1);
-        txtCap.setText(alpha.capital);
-        txtSmall.setText(alpha.small);
-        imgView.setImageResource(alpha.imageID);
-        return convertView;
-    }
-}*/
 public class MyViewAdapter extends ArrayAdapter<Alphabet> {
     public MyViewAdapter(@NonNull Context context, ArrayList<Alphabet> alphabetsArrayList) {
         super(context,0, alphabetsArrayList);

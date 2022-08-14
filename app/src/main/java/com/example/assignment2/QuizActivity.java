@@ -5,6 +5,7 @@ import static android.graphics.Color.rgb;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class QuizActivity extends AppCompatActivity {
     int currentIndex = 0;
@@ -94,6 +96,7 @@ public class QuizActivity extends AppCompatActivity {
            result.setText("Wrong");
            result.setTextColor(rgb(128,0,0));
         }
+
     }
 
     public void nextOnClick(View view) {
@@ -130,19 +133,17 @@ public class QuizActivity extends AppCompatActivity {
                 nextbtn.setText("Finish");
                 break;
             case 5:
-                imgVw1.setImageResource(questions[0]);
-                break;
-            case 6:
-                imgVw1.setImageResource(questions[1]);
-                break;
-
-            case 7:
+                Toast toast = Toast.makeText(this,"Test has been finished",Toast.LENGTH_LONG);
+                toast.show();
                 new AlertDialog.Builder(this)
                         .setMessage("Score is: "+obtainedMarks+"/"+totalMarks)
 //                        .setCancelable(false)
                         .show();
-
+                nextbtn.setText("Return");
                 break;
+            case 6:
+                Intent intent = new Intent(QuizActivity.this,MainActivity.class);
+                startActivity(intent);
         }
         result.setText("");
     }
